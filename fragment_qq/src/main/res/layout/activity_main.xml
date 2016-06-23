@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.whunf.fragment_qq.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_tab"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/fragment_content">
+
+        <TextView
+            android:id="@+id/tab_message"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/message_s"
+            android:gravity="center"
+            android:text="消息" />
+
+        <TextView
+            android:id="@+id/tab_contacts"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/contacts_s"
+            android:gravity="center"
+            android:text="联系人" />
+
+        <TextView
+            android:id="@+id/tab_news"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/news_s"
+            android:gravity="center"
+            android:text="动态" />
+
+        <TextView
+            android:id="@+id/tab_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/setting_s"
+            android:gravity="center"
+            android:text="设置" />
+
+    </LinearLayout>
+
+</LinearLayout>

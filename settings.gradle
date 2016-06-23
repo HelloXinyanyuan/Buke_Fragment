@@ -1,0 +1,1 @@
+include ':app', ':fragmentopearation', ':fragment_qq', ':viewpagerdemo', ':viewpagerfragmentdemo'
